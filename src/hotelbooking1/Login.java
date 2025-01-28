@@ -17,6 +17,9 @@ import static javax.swing.JOptionPane.showMessageDialog;
  *
  * @author PATABEDIGE
  */
+
+/* Editor-HR*/
+
 public class Login extends javax.swing.JFrame {
      Connection c;
         Statement s;
