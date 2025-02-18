@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author PATABEDIGE
+ * Editer-Nipuni
  */
 public class Checkout extends javax.swing.JFrame {
 
