@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author PATABEDIGE
+ * editer-chathurya
  */
 public class pay extends javax.swing.JFrame {
 
