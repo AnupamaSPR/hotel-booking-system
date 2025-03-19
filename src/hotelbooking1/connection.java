@@ -7,11 +7,35 @@ package hotelbooking1;
 /**
  *
  * @author HP-DV6
- */
+ */import java.sql.*; 
+import java.sql.DriverManager;
+import java.sql.Statement;
 
 
 public class connection
 
 {
-
+     Statement s;
+     Connection c;
+   
+    
+    connection(){
+        try{
+            
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            c=DriverManager.getConnection("jdbc:mysql://localhost:3306/hotelBooking1", "root", "");
+           s=c.createStatement();
+           
+           
+           
+        }catch(Exception E)
+            
+        {
+            E.printStackTrace();
+    }
+    }
+    public static void main(String[]args)
+    {
+ 
+    }
 }
